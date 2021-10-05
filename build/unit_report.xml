@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="9" assertions="17" errors="0" warnings="0" failures="0" skipped="0" time="0.024662">
+    <testsuite name="unit" tests="9" assertions="17" errors="0" warnings="0" failures="0" skipped="0" time="0.024662">
+      <testsuite name="Tests\Unit\ValidatorsTest" file="/home/nzolt/Desktop/Code/shopworks/Tests/unit/ValidatorsTest.php" tests="1" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.005052">
+        <testcase name="testShiftValidator" class="Tests\Unit\ValidatorsTest" classname="Tests.Unit.ValidatorsTest" file="/home/nzolt/Desktop/Code/shopworks/Tests/unit/ValidatorsTest.php" line="25" assertions="2" time="0.005052"/>
+      </testsuite>
+      <testsuite name="Tests\Unit\HelpersTest" file="/home/nzolt/Desktop/Code/shopworks/Tests/unit/HelpersTest.php" tests="4" assertions="5" errors="0" warnings="0" failures="0" skipped="0" time="0.008980">
+        <testcase name="testGetIntervalMinutes" class="Tests\Unit\HelpersTest" classname="Tests.Unit.HelpersTest" file="/home/nzolt/Desktop/Code/shopworks/Tests/unit/HelpersTest.php" line="45" assertions="1" time="0.002104"/>
+        <testcase name="testDateHelper" class="Tests\Unit\HelpersTest" classname="Tests.Unit.HelpersTest" file="/home/nzolt/Desktop/Code/shopworks/Tests/unit/HelpersTest.php" line="25" assertions="2" time="0.003523"/>
+        <testcase name="testGetWeek" class="Tests\Unit\HelpersTest" classname="Tests.Unit.HelpersTest" file="/home/nzolt/Desktop/Code/shopworks/Tests/unit/HelpersTest.php" line="38" assertions="1" time="0.001989"/>
+        <testcase name="testGetDayOfWeek" class="Tests\Unit\HelpersTest" classname="Tests.Unit.HelpersTest" file="/home/nzolt/Desktop/Code/shopworks/Tests/unit/HelpersTest.php" line="31" assertions="1" time="0.001363"/>
+      </testsuite>
+      <testsuite name="Tests\Unit\RotasTest" file="/home/nzolt/Desktop/Code/shopworks/Tests/unit/RotasTest.php" tests="1" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.001900">
+        <testcase name="testShiftAdd" class="Tests\Unit\RotasTest" classname="Tests.Unit.RotasTest" file="/home/nzolt/Desktop/Code/shopworks/Tests/unit/RotasTest.php" line="58" assertions="2" time="0.001900"/>
+      </testsuite>
+      <testsuite name="Tests\Unit\ManningTest" file="/home/nzolt/Desktop/Code/shopworks/Tests/unit/ManningTest.php" tests="3" assertions="8" errors="0" warnings="0" failures="0" skipped="0" time="0.008729">
+        <testcase name="testShiftAddTwoNoOverlap" class="Tests\Unit\ManningTest" classname="Tests.Unit.ManningTest" file="/home/nzolt/Desktop/Code/shopworks/Tests/unit/ManningTest.php" line="89" assertions="3" time="0.002083"/>
+        <testcase name="testShiftAddSingle" class="Tests\Unit\ManningTest" classname="Tests.Unit.ManningTest" file="/home/nzolt/Desktop/Code/shopworks/Tests/unit/ManningTest.php" line="57" assertions="2" time="0.002953"/>
+        <testcase name="testShiftAddTwoOverlap" class="Tests\Unit\ManningTest" classname="Tests.Unit.ManningTest" file="/home/nzolt/Desktop/Code/shopworks/Tests/unit/ManningTest.php" line="75" assertions="3" time="0.003693"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
